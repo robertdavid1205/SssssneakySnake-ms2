@@ -10,32 +10,48 @@
 
  .nav-link {
      color: whitesmoke;
+     font-family: "Righteous", sans-serif;
  }
 
  .nav-item {
     padding-top: 10px;
  }
-/*--------------------------------------------Logo*/
-
-.logo {
-    width: 500px;
-    height: 100px;
-    
-
-}
 
 /*--------------------------------------------Body*/
 .main-zone {
     background-image:url(../images/sssssnake_background.jpg);
     height: 1200px;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    overflow: auto;
+    height: 200px;
+}
+
+.logo {
+    width: 600px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.game-zone-container {
+overflow: auto;
 }
 
 .game-zone {
-    width:500px;
-    height:500px;
+    width:400px;
+    height:400px;
     display: flexbox;
     color: aliceblue;
+    margin: auto;
+    
 }
 
 /*--------------------------------------------Footer*/
@@ -46,5 +62,57 @@
     width: 100%;
     background-color: #085F74;
     color: whitesmoke;
+    font-family: "Righteous", sans-serif;
     text-align: center;
 }
+
+/*--------------------------------------------Contact*/
+.contact-form-container {
+    margin-top: 70px;
+}
+
+.contact-form-wrapper {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #448087;
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    font-family: "Righteous", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .form-group input {
+    font-family: "Righteous", sans-serif;
+  }
+
+  .form-group textarea {
+    font-family: "Righteous", sans-serif;
+  }
+
+  .form-group label {
+    font-family: "Righteous", sans-serif;
+  }
+  
+  button[type="submit"] {
+    font-family: "Righteous", sans-serif;
+    background-color: #447C58;
+    border: none;
+    color: #D3FADE;
+  }
+  
+  legend {
+    border-bottom: 4px solid #447C58;
+    font-family: "Righteous", sans-serif;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+  
+  .error-message {
+    font-family: 'Righteous', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    transition: all 1s ease;
+  }
