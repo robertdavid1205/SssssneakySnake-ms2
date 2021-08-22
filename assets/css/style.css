@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+ /*--------------------------------------------Navbar*/
+
+ .navigation-bar {
+    height: 60px;
+    background-color: #085F74;
+ }
+
+ .nav-link {
+     color: whitesmoke;
+ }
+
+ .nav-item {
+    padding-top: 10px;
+ }
+/*--------------------------------------------Logo*/
+
+.logo {
+    width: 500px;
+    height: 100px;
+    
+
+}
+
+/*--------------------------------------------Body*/
+.main-zone {
+    background-image:url(../images/sssssnake_background.jpg);
+    height: 1200px;
+    
+}
+
+.game-zone {
+    width:500px;
+    height:500px;
+    display: flexbox;
+    color: aliceblue;
+}
+
+/*--------------------------------------------Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #085F74;
+    color: whitesmoke;
+    text-align: center;
+}
