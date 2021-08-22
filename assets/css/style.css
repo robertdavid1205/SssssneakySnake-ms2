@@ -67,6 +67,7 @@ overflow: auto;
 }
 
 /*--------------------------------------------Contact*/
+/*---------------------------------Code adapted after Oliver Cadman*/
 .contact-form-container {
     margin-top: 70px;
 }
@@ -116,3 +117,15 @@ overflow: auto;
     padding: 0px;
     transition: all 1s ease;
   }
+
+/*--------------------------------------------Game Box*/
+/*---------------------------------Code adapted after Abhishek Ahlawat */
+  .game-box {
+    text-align:center;   
+    color: whitesmoke;
+}
+  .game-info {
+    text-align:center; 
+    font-family:arial;
+    line-height:24px;
+}
