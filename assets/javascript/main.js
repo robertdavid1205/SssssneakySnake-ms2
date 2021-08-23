@@ -50,7 +50,7 @@ function endGame(x) {
  var snakeTrail = [];
  var snakeX = (snakeY = 10);
 
- // apple
+ // fruit
  var appleX = (appleY = 15);
 
  // draw
@@ -74,7 +74,7 @@ function endGame(x) {
       snakeY = 0;
     }
 
-    //snake bites the apple
+    //snake bites the fruit
     if (snakeX == appleX && snakeY == appleY) {
       tailSize++;
 
@@ -92,7 +92,7 @@ function endGame(x) {
     // Draw a "border" around the entire canvas
     ctx.strokeRect(0, 0, canvas.width, canvas.height);
 
-    // paint snake
+    // colour snake
     ctx.fillStyle = SNAKE_COLOUR;
     ctx.strokestyle = SNAKE_BORDER_COLOUR;
     for (var i = 0; i < snakeTrail.length; i++) {
@@ -103,7 +103,7 @@ function endGame(x) {
         tileSize
       );
       
-      ctx.strokeRect(snakeTrail[i].x * tileSize , snakeTrail[i].y* tileSize, tileSize, tileSize);
+      ctx.strokeRect(snakeTrail[i].x * tileSize , snakeTrail[i].y * tileSize, tileSize, tileSize);
 
        //when the snake bites it's tail
        if (snakeTrail[i].x == snakeX && snakeTrail[i].y == snakeY) {
@@ -113,3 +113,44 @@ function endGame(x) {
         tailSize = defaultSnakeSize;  
       }
     }
+
+    // colour fruit
+    ctx.fillStyle = "red";
+    ctx.fillRect(appleX * tileSize, appleY * tileSize, tileSize, tileSize);
+
+    //set snake trail
+    snakeTrail.push({ x: snakeX, y: snakeY });
+    while (snakeTrail.length > tailSize) {
+      snakeTrail.shift();
+    }
+  }
+
+   // controls
+   function keyDownEvent(e) {
+    switch (e.keyCode) {
+      case 37:
+        nextX = -1;
+        nextY = 0;
+        break;
+      case 38:
+        nextX = 0;
+        nextY = -1;
+        break;
+      case 39:
+        nextX = 1;
+        nextY = 0;
+        break;
+      case 40:
+        nextX = 0;
+        nextY = 1;
+        break;
+      case 32:
+        if(gameOn == true) {
+            pauseGame();
+        }
+        else {
+            gameControl = startGame(x);
+        }
+        break;
+    }
+  }
