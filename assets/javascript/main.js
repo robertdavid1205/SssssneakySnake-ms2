@@ -52,3 +52,32 @@ function endGame(x) {
 
  // apple
  var appleX = (appleY = 15);
+
+ // draw
+ function draw() {
+    // move snake in next pos
+    snakeX += nextX;
+    snakeY += nextY;
+
+    // snake over game world?
+    if (snakeX < 0) {
+      snakeX = areaSize - 1;
+    }
+    if (snakeX > areaSize - 1) {
+      snakeX = 0;
+    }
+
+    if (snakeY < 0) {
+      snakeY = areaSize - 1;
+    }
+    if (snakeY > areaSize - 1) {
+      snakeY = 0;
+    }
+
+    //snake bite apple?
+    if (snakeX == appleX && snakeY == appleY) {
+      tailSize++;
+
+      appleX = Math.floor(Math.random() * areaSize);
+      appleY = Math.floor(Math.random() * areaSize);
+    }
