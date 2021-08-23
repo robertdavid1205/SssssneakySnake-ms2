@@ -144,7 +144,7 @@ function endGame(x) {
         nextX = 0;
         nextY = 1;
         break;
-      case 32:
+      case 16:
         if(gameOn == true) {
             pauseGame();
         }
