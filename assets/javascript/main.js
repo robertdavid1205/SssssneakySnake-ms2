@@ -39,3 +39,16 @@ function endGame(x) {
     document.getElementById("game-status").innerHTML = "<small>Game Over</small>";
     document.getElementById("game-score").innerHTML = "<h1>Score: " + x + "</h1>";
 }
+
+ // game world
+ var areaSize = (tileSize = 20); // 20 x 20 = 400
+ var nextX = (nextY = 0);
+
+ // snake
+ var defaultSnakeSize = 3;
+ var tailSize = defaultSnakeSize;
+ var snakeTrail = [];
+ var snakeX = (snakeY = 10);
+
+ // apple
+ var appleX = (appleY = 15);
