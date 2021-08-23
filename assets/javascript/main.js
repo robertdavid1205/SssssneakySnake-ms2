@@ -74,10 +74,42 @@ function endGame(x) {
       snakeY = 0;
     }
 
-    //snake bite apple?
+    //snake bites the apple
     if (snakeX == appleX && snakeY == appleY) {
       tailSize++;
 
       appleX = Math.floor(Math.random() * areaSize);
       appleY = Math.floor(Math.random() * areaSize);
+    }
+
+    //  Select the colour to fill the canvas
+    ctx.fillStyle = CANVAS_BACKGROUND_COLOUR;
+    //  Select the colour for the border of the canvas
+    ctx.strokestyle = CANVAS_BORDER_COLOUR;
+
+    // Draw a "full" square to cover the entire canvas
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    // Draw a "border" around the entire canvas
+    ctx.strokeRect(0, 0, canvas.width, canvas.height);
+
+    // paint snake
+    ctx.fillStyle = SNAKE_COLOUR;
+    ctx.strokestyle = SNAKE_BORDER_COLOUR;
+    for (var i = 0; i < snakeTrail.length; i++) {
+      ctx.fillRect(
+        snakeTrail[i].x * tileSize,
+        snakeTrail[i].y * tileSize,
+        tileSize,
+        tileSize
+      );
+      
+      ctx.strokeRect(snakeTrail[i].x * tileSize , snakeTrail[i].y* tileSize, tileSize, tileSize);
+
+       //when the snake bites it's tail
+       if (snakeTrail[i].x == snakeX && snakeTrail[i].y == snakeY) {
+        if(tailSize > 3) {
+            endGame(tailSize);
+        }
+        tailSize = defaultSnakeSize;  
+      }
     }
