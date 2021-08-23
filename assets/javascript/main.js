@@ -1,4 +1,4 @@
-var canvas, ctx, gameControl, gameActive;
+var canvas, ctx, gameControl, gameOn;
 // render X times per second
 var x = 10;
 
@@ -15,3 +15,12 @@ window.onload = function() {
 
     gameControl = startGame(x);
   };
+
+   /* function for the start of the game */
+   function startGame(x) {
+    // setting gameOn to true
+    gameOn = true;
+    document.getElementById("game-status").innerHTML = "<small>Game Started</small>";
+    document.getElementById("game-score").innerHTML = "";
+    return setInterval(draw, 1000 / x);
+}
