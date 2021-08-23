@@ -20,7 +20,7 @@
 /*--------------------------------------------Body*/
 .main-zone {
     background-image:url(../images/sssssnake_background.jpg);
-    height: 1200px;
+    height: 1400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@
 
 .logo-container {
     overflow: auto;
-    height: 200px;
+    height: 140px;
 }
 
 .logo {
@@ -43,11 +43,12 @@
 
 .game-zone-container {
 overflow: auto;
+height: 62vh;
 }
 
 .game-zone {
-    width:400px;
-    height:400px;
+    width:450px;
+    height:480px;
     display: flexbox;
     color: aliceblue;
     margin: auto;
@@ -112,7 +113,7 @@ overflow: auto;
   }
   
   .error-message {
-    font-family: 'Righteous', sans-serif;
+    font-family: 
     font-weight: 300;
     padding: 0px;
     transition: all 1s ease;
@@ -123,9 +124,11 @@ overflow: auto;
   .game-box {
     text-align:center;   
     color: whitesmoke;
+    
 }
   .game-info {
     text-align:center; 
-    font-family:arial;
+    font-family:'Righteous', sans-serif;
     line-height:24px;
 }
+
