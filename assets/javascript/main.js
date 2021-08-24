@@ -1,3 +1,5 @@
+/*Code adapted from Abhishek Ahlawat*/
+
 var canvas, ctx, gameControl, gameOn;
 // render X times per second
 var x = 10;

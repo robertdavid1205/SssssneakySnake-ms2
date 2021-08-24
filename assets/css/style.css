@@ -113,7 +113,7 @@ height: 62vh;
   }
   
   .error-message {
-    font-family: 
+    font-family: 'Righteous', sans-serif;
     font-weight: 300;
     padding: 0px;
     transition: all 1s ease;
@@ -132,3 +132,6 @@ height: 62vh;
     line-height:24px;
 }
 
+.game-zone-container {
+  height: 600px;
+}
