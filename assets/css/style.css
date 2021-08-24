@@ -20,7 +20,7 @@
 /*--------------------------------------------Body*/
 .main-zone {
     background-image:url(../images/sssssnake_background.jpg);
-    height: 1400px;
+    max-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -43,7 +43,7 @@
 
 .game-zone-container {
 overflow: auto;
-height: 62vh;
+height: 600px;
 }
 
 .game-zone {
@@ -132,6 +132,3 @@ height: 62vh;
     line-height:24px;
 }
 
-.game-zone-container {
-  height: 600px;
-}
