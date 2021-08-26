@@ -154,9 +154,25 @@ height: 600px;
 
 .modal-body {
   font-family: 'Righteous';
-  color: whitesmoke;
+  color: #A5E17A;
+  text-align: center;
 }
 
 .modal-footer {
   border: none;
+}
+
+
+@media only screen and (max-width: 1024px)  {
+  .game-zone-container {
+    width: fit-content;
+  }
+
+  .logo-container {
+    width: fit-content;
+  }
+
+  .main-zone {
+    width: fit-content;
+  }
 }
