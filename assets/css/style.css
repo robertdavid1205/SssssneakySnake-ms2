@@ -132,3 +132,31 @@ height: 600px;
     line-height:24px;
 }
 
+
+/*--------------------------------------------Help Modal*/
+.help-button {
+  background-color:#085F74!important;
+  font-family:'Righteous', sans-serif!important;
+  border: none;
+  margin: 6px;
+  font-family: 'Righteous';
+  color: whitesmoke;
+}
+
+.modal-dialog {
+  height: 500px;
+}
+
+.modal-content {
+  background-image:url(../images/contact-form-background.jpg);
+  height: 500px;
+}
+
+.modal-body {
+  font-family: 'Righteous';
+  color: whitesmoke;
+}
+
+.modal-footer {
+  border: none;
+}
