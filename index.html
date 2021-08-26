@@ -11,6 +11,8 @@
   <meta name="Description" content="Snake game" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
   <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -21,17 +23,30 @@
 
 <body>
     <header>
-    <!----------------------------------------------------------------------------------- Navbar  code adapted from Bootstrap5.0-->
+    <!----------------------------------------------------------------------------------- Credit: Navbar  code adapted from Bootstrap5.0-->
         <div class="navigation-bar">
             <ul class="nav navbar-expand-lg justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Help</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#helpModal">Help</button>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
+        <!----------------------------------------------------------------------------------------- Credit: Bootstrap Modal5.0-->
+        <div class="modal fade" id="helpModal" tabindex="-1" aria-labelledby="helpModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  bla bla bla blabalbalbl
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </header>
 
 <!----------------------------------------------------------------------------------- Main Zone -->
@@ -40,7 +55,7 @@
         <div class="container-fluid logo-container">
                  <img src="assets/images/Sneaky_snake_logo.png" class="logo">
         </div>
-        <!---------------------------------------------------------------Code adapted from Abhishek Ahlawat  -->
+        <!--------------------------------------------------------------- Credit: Code adapted from Abhishek Ahlawat  -->
         <div class="container-fluid game-zone-container">
              <div class="game-zone">
                 <div class="game-box"><canvas id="canvas" width="400" height="400"></canvas></div>
