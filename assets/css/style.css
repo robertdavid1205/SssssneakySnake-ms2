@@ -119,6 +119,14 @@ height: 600px;
     transition: all 1s ease;
   }
 
+  
+.icon-home {
+  color: #000000;
+  display: inline;
+  text-align: center;
+}
+  
+
 /*--------------------------------------------Game Box*/
 /*---------------------------------Code adapted after Abhishek Ahlawat */
   .game-box {
@@ -150,12 +158,16 @@ height: 600px;
 .modal-content {
   background-image:url(../images/contact-form-background.jpg);
   height: 500px;
+  width: 300px;
 }
 
 .modal-body {
   font-family: 'Righteous';
-  color: #A5E17A;
+  color: #000000;
   text-align: center;
+  justify-content: center;
+  padding-top:100px;
+  
 }
 
 .modal-footer {
@@ -173,6 +185,7 @@ height: 600px;
   }
 
   .main-zone {
-    width: fit-content;
+    
   }
 }
+

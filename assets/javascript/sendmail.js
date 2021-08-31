@@ -4,7 +4,7 @@ function sendMail(contactForm) {
     emailjs.send("service_4panlki", "MS2", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
+        "project_request": contactForm.questionsfeedback.value
     })
     .then(
         function(response) {
@@ -16,3 +16,4 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
