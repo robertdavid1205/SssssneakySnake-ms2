@@ -20,7 +20,7 @@
 /*--------------------------------------------Body*/
 .main-zone {
     background-image:url(../images/sssssnake_background.jpg);
-    height:100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -192,6 +192,48 @@ i {
   }
 
   .main-zone {
+    width: auto;
+  }
+
+  .game-box {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 768px)  {
+  .game-zone-container {
+    width: fit-content;
+  
+  }
+
+  .logo-container {
+    width: fit-content;
+  }
+
+  .main-zone {
+    width: auto;
+  }
+
+  .game-box {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 375px)  {
+  .game-zone-container {
+    width: fit-content;
+  
+  }
+
+  .logo-container {
+    width: fit-content;
+  }
+
+  .main-zone {
+    width: auto;
+  }
+
+  .game-box {
     width: auto;
   }
 }
