@@ -162,7 +162,7 @@ i {
 }
 
 .modal-content {
-  background-image:url(../images/contact-form-background.jpg);
+  background-color:#447C58;
   height: 500px;
   width: 300px;
 }
