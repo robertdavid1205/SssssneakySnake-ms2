@@ -43,7 +43,7 @@ function endGame(x) {
 }
 
  // game world
- var areaSize = (tileSize = 20); // 20 x 20 = 400
+ var areaSize = (tileSize = 18); // 18 x 18 = 324
  var nextX = (nextY = 0);
 
  // snake

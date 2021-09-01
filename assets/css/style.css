@@ -236,5 +236,9 @@ i {
   .game-box {
     width: auto;
   }
+
+  .game-zone {
+    width: 324px;
+  }
 }
 
