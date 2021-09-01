@@ -219,7 +219,7 @@ i {
   }
 }
 
-@media only screen and (max-width: 375px)  {
+@media only screen and (max-width: 410px)  {
   .game-zone-container {
     width: fit-content;
   
@@ -230,7 +230,7 @@ i {
   }
 
   .main-zone {
-    width: auto;
+    width: fit-content;
   }
 
   .game-box {
