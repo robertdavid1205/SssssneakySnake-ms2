@@ -156,3 +156,33 @@ function endGame(x) {
         break;
     }
   }
+
+  //touch controls
+  /*Code adapted from Raphael Michel*/
+
+  touch_start: null,
+
+	 function touch_start(event) {
+		var fingerTouch = event.changedTouches;
+		 snake._touch_start = [fingerTouch[0].pageX, fingerTouch[0].pageY];
+	}
+
+	function touch_end(event) {
+		var fingerTouch = event.changedTouches;
+		var endPosition = [fingerTouch[0].pageX, fingerTouch[0].pageY];
+		var dirX = endPosition[0] - snake._touch_start[0],
+			 dirY = endPosition[1] - snake._touch_start[1],
+			 d = Math.sqrt(dirX*dirX + dirY*dirY),
+			 thing = Math.acos(dirX/d);
+
+		if (thing < Math.PI * 1/4) {
+			snake.state.direction = [1, 0];
+		} else if (thing > Math.PI * 3/4) {
+			snake.state.direction = [-1, 0];
+		} else if (dirY > 0) {
+			snake.state.direction = [0, 1];
+		} else {
+			snake.state.direction = [0, -1];
+		}
+	}
+
