@@ -240,5 +240,14 @@ i {
   .game-zone {
     width: 324px;
   }
+
+  .contact-form-container {
+    width: fit-content;
+  }
+
+  .contact-form-wrapper {
+    width: fit-content;
+  }
+
 }
 
