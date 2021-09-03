@@ -2,7 +2,7 @@
 
 function sendMail(contactForm) {
     console.log("Hello!")
-    emailjs.send("service_4panlki", "MS2", {
+    emailjs.send("service_4panlki", "ms2_robdav", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "message": contactForm.questionsfeedback.value
