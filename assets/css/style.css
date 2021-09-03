@@ -177,6 +177,10 @@ i {
   
 }
 
+.help-heading{
+  margin-top: -80px;
+}
+
 .modal-footer {
   border: none;
 }
@@ -231,7 +235,7 @@ i {
   }
 
   .main-zone {
-    width: fit-content;
+    width:auto;
   }
 
   .game-box {
