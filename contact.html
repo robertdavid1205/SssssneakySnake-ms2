@@ -17,18 +17,17 @@
   
   <title>Sssssneaky Snake Game</title>
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-  <script type="text/javascript">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script>
          (function(){
              emailjs.init("user_uJ8wQtyALQSXcBiocx0UF");
-             emailjs.send("service_4panlki", "ms2_robdav");
           })();
   </script>
 </head>
 
 <body>
     <header>
-    <!----------------------------------------------------------------------------------- Navbar  code adapted from Bootstrap5.0-->
+    <!---------------------------------------------------------------------------- Navbar  code adapted from Bootstrap5.0-->
         <div class="navigation-bar">
             <ul class="nav navbar-expand-lg justify-content-end">
                 <li class="nav-item">
@@ -40,11 +39,11 @@
 
     <section>
         <div class="main-zone">
-            <!---------------------------------Code adapted after Oliver Cadman-->
+            <!------------------------------Code adapted after Oliver Cadman-->
             <div class="row d-flex flex-md-row justify-content-center contact-form-container">
-                <!---------------------------------------------------------------------- Contact Form Wrapper -->
+                <!------------------------------------------------------------------ Contact Form Wrapper -->
                 <div class="col-12 col-md-6 contact-form-wrapper">
-                  <!-------------------------------------------------------------------- Contact Form-->
+                  <!------------------------------------------------------------- Contact Form-->
                     <form onsubmit="return sendMail(this);" class="form-inline" id="contact-form">
                         <fieldset>
                             <legend>
@@ -82,16 +81,16 @@
     </section>
     
 <footer>
-    <!----------------------------------------------------------------------------------- Footer -->
+    <!---------------------------------------------------------------------------- Footer -->
     <div class="footer">
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
              © 2021 Copyright:
-            <a class="text-reset fw-bold">Robert David</a>
+            <a class="text-reset fw-bold" href="https://www.facebook.com/robert.david.1800/">Robert David</a>
         </div>
     </div>
 </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    
+    <script src="assets/javascript/sendmail.js"></script>
 </body>

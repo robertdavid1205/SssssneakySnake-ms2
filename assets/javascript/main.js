@@ -160,8 +160,6 @@ function endGame(x) {
   //touch controls
   /*Code adapted from Raphael Michel*/
 
-  touch_start: null,
-
 	 function touch_start(event) {
 		var fingerTouch = event.changedTouches;
 		 snake._touch_start = [fingerTouch[0].pageX, fingerTouch[0].pageY];

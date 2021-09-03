@@ -1,10 +1,11 @@
 /* Code adapted from  Code institute "Sending Emails Using EmailJS" lesson */
 
 function sendMail(contactForm) {
+    console.log("Hello!")
     emailjs.send("service_4panlki", "MS2", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.questionsfeedback.value
+        "message": contactForm.questionsfeedback.value
     })
     .then(
         function(response) {
