@@ -51,7 +51,7 @@ height: 600px;
 .game-zone {
     width:450px;
     height:480px;
-    display: flexbox;
+    display: flex;
     color: aliceblue;
     margin: auto;
     
@@ -208,7 +208,7 @@ i {
 @media only screen and (max-width: 768px)  {
   .game-zone-container {
     width: fit-content;
-  
+    height: 490px;
   }
 
   .logo-container {
@@ -227,7 +227,7 @@ i {
 @media only screen and (max-width: 410px)  {
   .game-zone-container {
     width: fit-content;
-  
+    height: 420px;
   }
 
   .logo-container {
