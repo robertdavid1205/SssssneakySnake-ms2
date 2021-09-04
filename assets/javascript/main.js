@@ -129,6 +129,7 @@ function endGame(x) {
 
    // controls
    function keyDownEvent(e) {
+     console.log()
     switch (e.keyCode) {
       case 37:
         nextX = -1;
@@ -146,7 +147,7 @@ function endGame(x) {
         nextX = 0;
         nextY = 1;
         break;
-      case 16:
+      case 32:
         if(gameOn == true) {
             pauseGame();
         }
@@ -157,37 +158,22 @@ function endGame(x) {
     }
   }
 
+
+  var controlKeys = {};
+        window.addEventListener("keydown",
+            function(e){
+                controlKeys[e.keyCode] = true;
+                switch(e.keyCode){
+                    case 37: case 39: case 38:  case 40: 
+                    case 32: e.preventDefault(); break;
+                    default: break;
+                }
+            },
+        false);
+        window.addEventListener('keyup',
+            function(e){
+                controlKeys[e.keyCode] = false;
+            },
+        false);
+
   //touch controls
-  /*Code adapted from Irfan Wani*/
-
-// left
-function left() {
-  if(snake.dx === 0) {
-    snake.dx = -grid;
-    snake.dy = 0;
-  }
-}
-
-// up 
-function up() {
-  if(snake.dy === 0) {
-    snake.dy = -grid;
-    snake.dx = 0;
-  }
-}
-
-// right 
-function right() {
-  if(snake.dx === 0) {
-    snake.dx = grid;
-    snake.dy = 0;
-  }
-}
-// down 
-function down() {
-  if(snake.dy === 0) {
-    snake.dy = grid;
-    snake.dx = 0;
-  }
-}
-
