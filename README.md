@@ -1,5 +1,5 @@
 # Sssssneaky Snake 
-This webpage showcases a fun game that brings back old memories.
+This webpage showcases a fun game that brings back old memories to many of us.
 <br>
 View the live site [here](https://robertdavid1205.github.io/SssssneakySnake-ms2)
 <br><br>
@@ -37,6 +37,23 @@ View the live site [here](https://robertdavid1205.github.io/SssssneakySnake-ms2)
     2. [Media](#media)
     3. [Acknowledgements](#acknowledgements)
 ---
+
+### Project Goals
+---
+* Primary goal is to showcase the coding skills aquired in Html , Css , Javascript , Api's. 
+* Offer a joyfull time while playin this classic game that is in the memory of milions.
+* Recieve feedback and queires from users.
+
+### User Goals
+---
+1. Play the game on both, destop and mobile, and have fun
+2. Make use of the form to send us theyr ideas and thoughts.
+
+### User Experience
+---
+The website was designed with mobile first in mind by creating easy readable and easy to separate pieces of content.
+The pages were structured in a way that most importat content is displayed in front of your eyes, then in order of priority down the line.
+The user experience is designed so that the user can discover needed information and most importantly send us their toughts and ideas trough a call to action button which is easily available on both views. 
 
 
 
