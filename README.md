@@ -55,6 +55,17 @@ The website was designed with mobile first in mind by creating easy readable and
 The pages were structured in a way that most importat content is displayed in front of your eyes, then in order of priority down the line.
 The user experience is designed so that the user can discover needed information and most importantly send us their toughts and ideas trough a call to action button which is easily available on both views. 
 
+#### Target Audience
+---
+* Employers
+* People who just want to play a classic game
+* Developers
+
+### User Stories
+---
+1. As an employer I can check for various coding skills in this project, from html and css, UX and UI, to javascript and API.
+2. As a person born in the 80's I have lots of fun playing this game and remembering the old days when technology  wasn't so developed.
+3. As a developer I can get ideas for my own project and I can send my feedback to the owner.
 
 
 
