@@ -299,9 +299,9 @@ i {
 
 /*--------------------------------------------404 page*/
 .error-text {
-  font-size: 15px;
+  font-size: 55px;
   font-family:'Righteous', sans-serif;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
