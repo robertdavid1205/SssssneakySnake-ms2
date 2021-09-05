@@ -310,6 +310,6 @@ i {
   margin: 0 auto;
 }
 
-#back-icon {
+.back-container > a > i {
   color: #000000;
 }
