@@ -285,6 +285,7 @@ i {
 
   .contact-form-container {
     width: fit-content;
+    margin: 0 auto;
   }
 
   .contact-form-wrapper {
