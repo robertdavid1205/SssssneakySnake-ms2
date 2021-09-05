@@ -71,11 +71,12 @@
         </div>
         <div class="arrow-buttons-mobile d-xl-none">
             <div class="arrow-button empty"></div>
-            <div class="arrow-button"><button onclick="up()" type="button" id="U">Up</button></div>
+            <div class="arrow-button"><button type="button" id="U" class="direction" data-value="0, -1">Up</button></div>
             <div class="arrow-button empty"></div>
-            <div class="arrow-button"><button onclick="left()" type="button" id="L">Left</button></div>
-            <div class="arrow-button"><button onclick="right()" type="button" id="R">Right</button></div>
-            <div class="arrow-button"><button onclick="down()" type="button" id="D">Down</button></div>
+            <div class="arrow-button"><button type="button" id="L" class="direction" data-value="-1, 0">Left</button></div>
+            <div class="arrow-button"><button type="button" id="D" class="direction" data-value="0, 1">Down</button></div>
+            <div class="arrow-button"><button type="button" id="R" class="direction" data-value="1, 0">Right</button></div>
+            
           </div>
     </div>
 </section>
