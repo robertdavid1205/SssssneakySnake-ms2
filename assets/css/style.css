@@ -309,3 +309,7 @@ i {
   display: flexbox;
   margin: 0 auto;
 }
+
+#back-icon {
+  color: #000000;
+}
