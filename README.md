@@ -64,7 +64,7 @@ The user experience is designed so that the user can discover needed information
 ### User Stories
 ---
 1. As an employer I can check for various coding skills in this project, from html and css, UX and UI, to javascript and API.
-2. As a person born in the 80's I have lots of fun playing this game and remembering the old days when technology  wasn't so developed.
+2. As a user born in the 80's I have lots of fun playing this game, easily on a website, and remembering the old days when technology wasn't so developed and you needed a gadget for each game.
 3. As a developer I can get ideas for my own project and I can send my feedback to the owner.
 
 ### Site Owner Goals
@@ -204,6 +204,61 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
 * *Microsoft Edge*: Website and user stories work as expected.
 * *Firefox*: Website and user stories work as expected.
 
+#### Testing user stories
+---
+1. As an employer I can check for various coding skills in this project, from html and css, UX and UI, to javascript and API.
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Snake Game</td>
+            <td>press Space and start playing</td>
+            <td>To function in normal parameters, which shoes the javascript skills</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot]()
+
+2. As a user born in the 80's I have lots of fun playing this game, easily on a website, and remembering the old days when technology wasn't so developed and you needed a gadget for each game.
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>The Website</td>
+            <td>Acces the link , enjoy the website</td>
+            <td>To load fast , be easy to use and with no bugs</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot]()
+
+3. As a developer I can get ideas for my own project and I can send my feedback to the owner.
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Contact Form</td>
+            <td>Fill in the empty spaces , and click send</td>
+            <td>Your feedback or query is sent stright to my email, and I can wiev it instantly.</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot]()
 
 
 onimages used by  :kay dahms   and kelly lacy
