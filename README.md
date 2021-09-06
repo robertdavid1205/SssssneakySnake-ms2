@@ -128,7 +128,7 @@ In the **Footer** we have the copyright and my name which is linked to my social
 ---
 1. Index
 * [mobile](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/wireframes/mobile/index%20mobile.png)
-* [tablet]https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/wireframes/ipad/index%20ipad.png)
+* [tablet](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/wireframes/ipad/index%20ipad.png)
 * [desktop](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/wireframes/desktop/index%20desktop.png)
 
 2. Contact 
