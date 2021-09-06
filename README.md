@@ -109,6 +109,37 @@ Then The **Help** page, displays a modal with rules of the game and a close butt
 Next there's the **Contact** page that showcases a contact form with name, email and feedback, wich is linked to emailjs, for queries and feedback.
 In the **Footer** we have the copyright and my name which is linked to my social's.
 
+### Frameworks, libraries and other tools 
+---
+
+1. [Git](https://git-scm.com/)
+2. [GitHub](https://github.com/)
+3. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+4. [Balsamiq](https://balsamiq.com/)
+5. [Font Awesome](https://fontawesome.com/)
+6. [Google Fonts](https://fonts.google.com/)
+7. [Am I Responsive](http://ami.responsivedesign.is/)
+8. [Picresize.com](https://picresize.com/)
+9. [Javascript](https://www.javascript.com/)
+10.[Gitpod](https://www.gitpod.io/)
+11.[Emailjs](https://www.emailjs.com/)
+
+### Wireframes 
+---
+1. Index
+* [mobile]()
+* [tablet]()
+* [desktop]()
+
+2. Contact 
+* [mobile]()
+* [tablet]()
+* [desktop]()
+
+3. Modal
+* [mobile]()
+* [tablet]()
+* [desktop]()
 
 
 
