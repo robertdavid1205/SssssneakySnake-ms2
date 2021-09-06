@@ -1,7 +1,7 @@
 # Sssssneaky Snake 
 This webpage showcases a fun game that brings back old memories to many of us.
 <br>
-View the live site [here](https://robertdavid1205.github.io/SssssneakySnake-ms2)(Opens in new tab)
+View the live site [here](https://robertdavid1205.github.io/SssssneakySnake-ms2)(Open it in a new tab)
 <br><br>
 ![Responsive site example](/docs/mockup/mockup.png)
 
