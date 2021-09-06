@@ -222,7 +222,7 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
         </tr>
   </table> 
  
-&nbsp;[Screenshot]()
+&nbsp;[Screenshot](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/user%20stories/user-story1.png)
 
 2. As a user born in the 80's I have lots of fun playing this game, easily on a website, and remembering the old days when technology wasn't so developed and you needed a gadget for each game.
   <table>
@@ -240,7 +240,7 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
         </tr>
   </table> 
  
-&nbsp;[Screenshot]()
+&nbsp;[Screenshot](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/user%20stories/user-story2.png)
 
 3. As a developer I can get ideas for my own project and I can send my feedback to the owner.
   <table>
@@ -258,7 +258,7 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
         </tr>
   </table> 
  
-&nbsp;[Screenshot]()
+&nbsp;[Screenshot](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/user%20stories/user-story3.png)
 
 
 onimages used by  :kay dahms   and kelly lacy
