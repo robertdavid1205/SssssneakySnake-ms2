@@ -1,7 +1,7 @@
 # Sssssneaky Snake 
 This webpage showcases a fun game that brings back old memories to many of us.
 <br>
-View the live site [here](https://robertdavid1205.github.io/SssssneakySnake-ms2)
+View the live site [here](https://robertdavid1205.github.io/SssssneakySnake-ms2)(Opens in new tab)
 <br><br>
 ![Responsive site example](/docs/mockup/mockup.png)
 
@@ -145,7 +145,7 @@ In the **Footer** we have the copyright and my name which is linked to my social
 ---
 
 #### HTML Validation
-
+---
 I used [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML code. All the pages pass with 0 errors.
 
 Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/index%20html%20validator.png)
@@ -153,19 +153,56 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
               
               
 #### CSS Validation
-
+---
 I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS code. All the pages pass with 0 errors.
 
 Result here: [CSS](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/css%20validator.png)
 
 #### JavaScript Validation
-
+---
 I used [JSHint Validation Service](https://jshint.com/) to validate the CSS code. All the pages pass with 0 errors.
 
 Results here: [Mainjs](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/main.js%20validator.png)
               [Emailjs](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/emailjs%20validator.png)
 
+I used [WAVE WebAIM evaluation tool](https://wave.webaim.org/) to check the website's accesibility standards. All the pages have 0 errors.
 
+  Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/webaim/webaim%20index.png)
+                [Contact](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/webaim/webaim%20contact.png)
+
+#### Performance
+---
+I used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) to check performance of the website and it passes with scores between 93 and 100 on all pages on all 4 criterias Performance/ Accesibility/ Best Practices/ SEO.
+
+Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/lighthouse/index%20lighthouse.png)
+              [Contact](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/lighthouse/contact%20lighthouse.png)
+
+#### Performed tests on:
+---
+* HP Envy
+* IphoneX
+* Ipad
+* Samsung Galaxy Tab S6
+
+##### Tests performed:
+---
+1. Page links and icons redirect the user to the corect place on both desktop and mobile versions.
+2. The game comands function in both desktop and mobile 
+3. The game has no bugs and works just fine
+4. Nav bar links are able to redirect users to the correct page and there are no broken links.
+5. The Modal opens up correctly and the button close works.
+6. In the case of an incorrect URL, the user is redirected to a 404 page wich will direct them back to the home page. 
+
+##### Results:
+---
+* All the devices passed all tests.
+
+#### Browser compatibility
+---
+* *Google Chrome*: Website and user stories work as expected.
+* *Safari*: Website and user stories work as expected.
+* *Microsoft Edge*: Website and user stories work as expected.
+* *Firefox*: Website and user stories work as expected.
 
 
 
