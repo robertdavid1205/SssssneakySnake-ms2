@@ -90,8 +90,24 @@ Features to be built in future releases:
 * Sound and better graphics.
 * Scoreboard that saves each player's score and name.
 
+### Design Choices
+---
+* The goal for this site was to create a simple and easy to use platform, that contains a classic game that showcases javascript ckills , alongside a contact form linked to emailjs.
 
+### Colors
+---
+Main colors are **Green** / **White** and **Red**. Most of the website is **Green** and it's pallete **White** was used for the text, for a good contrast, the **Red** color is used for the logo, to bring it forward and stand out.
 
+### Fonts
+---
+I have used Righteous as the font for the whole website. Cool design and works well with the whole site.
+
+### Structure
+---
+In the upper part there's a navigation bar, which contains the Help and Contact button. On the index page, we have the **Logo**, underneath it we have the game box where all the action happens and under it, we have the score and information about the status of the game.
+Then The **Help** page, displays a modal with rules of the game and a close button.
+Next there's the **Contact** page that showcases a contact form with name, email and feedback, wich is linked to emailjs, for queries and feedback.
+In the **Footer** we have the copyright and my name which is linked to my social's.
 
 
 
