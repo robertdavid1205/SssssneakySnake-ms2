@@ -67,6 +67,29 @@ The user experience is designed so that the user can discover needed information
 2. As a person born in the 80's I have lots of fun playing this game and remembering the old days when technology  wasn't so developed.
 3. As a developer I can get ideas for my own project and I can send my feedback to the owner.
 
+### Site Owner Goals
+---
+1. To showcase my skills in Html, CSS, Javascript, API's
+2. To have an attractive and easy to use site.
+3. To have a site that is responsive on all devices and easy to navigate.
+4. To have all the information easy to reach.
+
+### Scope
+---
+The scope of the project is defined by:
+
+* Navigation bar, for a simple navigation of the website
+* Footer available in all the website's pages, with link to my social page.
+* Modal which displays rules and info about the game.
+* Contact form, linked to emailjs API for queries and feedback.
+* Favicon to help users identify the website easier.
+* Snake game, to enjoy an old school game.
+
+Features to be built in future releases:
+
+* Sound and better graphics.
+* Scoreboard that saves each player's score and name.
+
 
 
 
