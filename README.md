@@ -141,7 +141,29 @@ In the **Footer** we have the copyright and my name which is linked to my social
 * [tablet](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/wireframes/ipad/modal%20ipad.png)
 * [desktop](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/wireframes/desktop/modal%20desktop.png)
 
+### Testing
+---
 
+#### HTML Validation
+
+I used [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML code. All the pages pass with 0 errors.
+
+Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/index%20html%20validator.png)
+              [Contact](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/contact%20html%20validator.png)
+              
+              
+#### CSS Validation
+
+I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS code. All the pages pass with 0 errors.
+
+Result here: [CSS](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/css%20validator.png)
+
+#### JavaScript Validation
+
+I used [JSHint Validation Service](https://jshint.com/) to validate the CSS code. All the pages pass with 0 errors.
+
+Results here: [Mainjs](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/main.js%20validator.png)
+              [Emailjs](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/validation/emailjs%20validator.png)
 
 
 
