@@ -297,7 +297,7 @@ The page is fully responsive on mobile and tablet.
 The home page contains 3 sections:
 
 1. A navbar with links to the rest of the pages and the modal.
-2. The Game area where you can play the game and see the score and info about the stat of the game.
+2. The Contact form and a back to home icon.
 3. The footer with the Copyright and link to social.
 
 ###### Section 1 Navbar
@@ -317,4 +317,42 @@ A simple footer, designed in the same color as the navbar, with link to my socia
 
 The page is fully responsive on mobile and tablet.
 
-onimages used by  :kay dahms   and kelly lacy
+
+### Languages Used
+---
+
+* Html5
+* Css3
+* JavaScript
+
+### Deployment
+---
+
+#### GitHub Pages
+
+GitHub was used to deploy this website. To do the same...
+
+1. Log into your GitHub account and find the [repository](https://github.com/robertdavid1205/SssssneakySnake-ms2). 
+2. Click on 'Settings' in the repository. 
+3. Click 'Pages' in the left-hand menu once you're in Settings. 
+4. Click 'Source'.
+5. Click the dropdown menu which says 'None', then select 'Master Branch'.
+6. Wait for page to refresh automatically. 
+7. Under GitHub pages you can now find a link to the published live website. 
+
+### Credits
+---
+
+#### Code
+* *Bootstrap* - code for Navbar / Modal 
+* *Code Institute* - code for eamiljs from "Sending Emails Using EmailJS" lesson */
+* *Oliver Cadman* - code for contact form
+* *Abhishek Ahlawat* - code for game box
+
+#### Media
+* images used by  :kay dahms, kelly lacy
+
+### Aknowledgements
+
+* To Mo Shami, my mentor, for understanding me, for the feedback and support.
+* To Code Institute Slack Community and tutors for advice and guidance. 
