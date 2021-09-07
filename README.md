@@ -260,5 +260,61 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
  
 &nbsp;[Screenshot](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/user%20stories/user-story3.png)
 
+### Features
+---
+The website has 2 pages plus a modal and 3 features.
+
+#### Current Features
+
+##### Page 1: Home Page
+
+The home page contains 3 sections:
+
+1. A navbar with links to the rest of the pages and the modal.
+2. The Game area where you can play the game and see the score and info about the stat of the game.
+3. The footer with the Copyright and link to social.
+
+###### Section 1 Navbar
+
+It's simple and in contrast , contains the needed information and the modal button.
+![Navbar](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Navbar.png)
+![Modal](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Modal.png)
+
+###### Section 2 Game Zone
+
+You can find the Logo and beneath it the game box, where all the action happens, underneath the game box you can see your score and game status info.
+![Game Zone](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Game-zone.png)
+
+###### Section 3 Footer
+
+A simple footer, designed in the same color as the navbar, with link to my social media.
+![Footer](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Footer.png)
+
+The page is fully responsive on mobile and tablet.
+
+##### Page 2: Contact Page
+
+The home page contains 3 sections:
+
+1. A navbar with links to the rest of the pages and the modal.
+2. The Game area where you can play the game and see the score and info about the stat of the game.
+3. The footer with the Copyright and link to social.
+
+###### Section 1 Navbar
+
+It's simple and in contrast , contains the needed information.
+![Navbar](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Navbar.png)
+
+###### Section 2 Contact Form
+
+You can find a contact form with name , email and features/queries sections , a send button and underneath a back to home button. The contact form is linked to Emailjs API.
+![Contact Form](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Contact.png)
+
+###### Section 3 Footer
+
+A simple footer, designed in the same color as the navbar, with link to my social media.
+![Footer](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Footer.png)
+
+The page is fully responsive on mobile and tablet.
 
 onimages used by  :kay dahms   and kelly lacy
