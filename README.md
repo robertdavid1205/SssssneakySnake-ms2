@@ -353,7 +353,7 @@ It's simple and in contrast , contains the needed information and the modal butt
 ###### Section 2 404 Info
 
 Simple and with black on white you will find written: "404 error page. Are you sure you typed the right address?" also  there is a back button to redirect you to the home page.
-![Game Zone]()
+[404 Info](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/404info.png)
 
 ###### Section 3 Footer
 
