@@ -249,7 +249,7 @@ i {
 @media only screen and (max-width: 768px)  {
   .game-zone-container {
     width: fit-content;
-    height: 490px;
+    height: 440px;
     margin: 0 auto;
   }
 
@@ -273,20 +273,23 @@ i {
     width: 324px;
     height: 410px;
     margin: 0 auto;
+    padding-top: 5px;
   }
 
   .logo-container {
     width: fit-content;
     margin: 0 auto;
+    height: auto;
   }
 
   .logo {
-    width: 140px;
+    width: 120px;
     height: 35px;
+    margin-top: 20px;
   }
 
   .main-zone {
-    width: 355px
+    width: auto;
   }
 
   .game-box {
@@ -311,6 +314,10 @@ i {
 
   .game-info {
     margin: 0 auto;
+  }
+
+  .footer {
+    height: 50px;
   }
 }
 
