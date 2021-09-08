@@ -277,7 +277,7 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
         </tr>
   </table> 
  
-&nbsp;[Screenshot](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/user%20stories/user-story1.png)
+&nbsp;[Screenshot](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/user%20stories/user-story4.png)
 
 ### Features
 ---
