@@ -281,7 +281,7 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
 
 ### Features
 ---
-The website has 2 pages plus a modal and 3 features.
+The website has 2 pages, a 404 page, a modal and 3 features.
 
 #### Current Features
 
@@ -336,6 +336,31 @@ A simple footer, designed in the same color as the navbar, with link to my socia
 
 The page is fully responsive on mobile and tablet.
 
+##### Page 3: 404 Page
+
+The home page contains 3 sections:
+
+1. A navbar with links to the rest of the pages and the modal.
+2. The 404 page info and a Back icon.
+3. The footer with the Copyright and link to social.
+
+###### Section 1 Navbar
+
+It's simple and in contrast , contains the needed information and the modal button.
+![Navbar](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Navbar.png)
+![Modal](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Modal.png)
+
+###### Section 2 404 Info
+
+Simple and with black on white you will find written: "404 error page. Are you sure you typed the right address?" also  there is a back button to redirect you to the home page.
+![Game Zone]()
+
+###### Section 3 Footer
+
+A simple footer, designed in the same color as the navbar, with link to my social media.
+![Footer](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/features/Footer.png)
+
+The page is fully responsive on mobile and tablet.
 
 ### Languages Used
 ---
