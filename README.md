@@ -66,6 +66,7 @@ The user experience is designed so that the user can discover needed information
 1. As an employer I can check for various coding skills in this project, from html and css, UX and UI, to javascript and API.
 2. As a user born in the 80's I have lots of fun playing this game, easily on a website, and remembering the old days when technology wasn't so developed and you needed a gadget for each game.
 3. As a developer I can get ideas for my own project and I can send my feedback to the owner.
+4. As a user that mistyped the address, he will be redirected to a 404 page which will contain information that the page does not exist and he will have options to go back.
 
 ### Site Owner Goals
 ---
@@ -259,6 +260,24 @@ Results here: [Index](https://github.com/robertdavid1205/SssssneakySnake-ms2/blo
   </table> 
  
 &nbsp;[Screenshot](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/user%20stories/user-story3.png)
+
+4. As a user that misstyped the address, he will be redirected to a 404 page which will contain information that the page does not exist and he will have options to go back.
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>404 Page</td>
+            <td>Misstype of address</td>
+            <td>To be redirected to a 404 page that gives the info about that and redirects him back</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](https://github.com/robertdavid1205/SssssneakySnake-ms2/blob/main/docs/user%20stories/user-story1.png)
 
 ### Features
 ---
