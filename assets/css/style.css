@@ -280,6 +280,11 @@ i {
     margin: 0 auto;
   }
 
+  .logo {
+    width: 140px;
+    height: 35px;
+  }
+
   .main-zone {
     width: 355px
   }
