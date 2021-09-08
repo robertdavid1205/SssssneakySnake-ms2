@@ -268,7 +268,7 @@ i {
   }
 }
 
-@media only screen and (max-width: 410px)  {
+@media only screen and (max-width: 370px)  {
   .game-zone-container {
     width: 324px;
     height: 410px;
