@@ -177,10 +177,9 @@ function endGame(x) {
         false);
 
   //touch controls
-
   const buttons = document.querySelectorAll('.direction')
     buttons.forEach(button => button.addEventListener('click', event => {
        const [x, y] = event.target.dataset.value.split(',')
        nextX = Number(x)
        nextY = Number(y)
-      }))
+      }));

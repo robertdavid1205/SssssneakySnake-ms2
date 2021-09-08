@@ -16,8 +16,10 @@
 
   
   <title>Sssssneaky Snake Game</title>
+  <!---------------------------------------------------------------------------- Favicon-->
   <link rel="shortcut icon" type="image/jpg" href="/docs/favicon/favicon-32x32.png"/>
 
+  <!---------------------------------------------------------------------------- Emailjs script-->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script>
          (function(){
@@ -32,7 +34,7 @@
         <div class="navigation-bar">
             <ul class="nav navbar-expand-lg justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -48,33 +50,34 @@
                     <form onsubmit="return sendMail(this);" class="form-inline" id="contact-form">
                         <fieldset>
                             <legend>
-                                Contact Us
+                                 Contact Us
                             </legend>
                             <div class="form-group">
-                                <label for="name">Name:</label>
-                                <input class="form-control" type="text" id="name" name="name" placeholder="Please enter your name">
-                                <div class="error-message"></div>
+                                 <label for="name">Name:</label>
+                                 <input class="form-control" type="text" id="name" name="name" placeholder="Please enter your name">
+                                 <div class="error-message"></div>
                             </div>
                             <div class="form-group">
-                                <label for="emailaddress">Email:</label>
-                                <input class="form-control" type="email" id="emailaddress" name="emailaddress" placeholder="Please enter your email">
-                                <div class="error-message"></div>
+                                 <label for="emailaddress">Email:</label>
+                                 <input class="form-control" type="email" id="emailaddress" name="emailaddress" placeholder="Please enter your email">
+                                 <div class="error-message"></div>
                             </div>
                             <div class="form-group">
-                                <label for="questionsfeedback">Feedback:</label>
-                                <br>
-                                <textarea class="form-control" name="questionsfeedback" rows="4" id="questionsfeedback" placeholder="Your questions or comments here!"></textarea>
-                                <div class="error-message"></div>
+                                 <label for="questionsfeedback">Feedback:</label>
+                                 <br>
+                                 <textarea class="form-control" name="questionsfeedback" rows="4" id="questionsfeedback" placeholder="Your questions or comments here!"></textarea>
+                                 <div class="error-message"></div>
                             </div>
                             <div class="form-group">
-                                <button onclick="validation()" type="submit" class="btn">Send</button>
-                                <p id="validated"></p>
+                                 <button onclick="validation()" type="submit" class="btn">Send</button>
+                                 <p id="validated"></p>
                             </div>
                         </fieldset>
                     </form>
                 </div>
             </div>
-            <a href="./index.html" target="_self" rel="noopener" class="icon-home"><i class="fas fa-home fa-2x">Back</i></a>
+            <!---------------------------------------------------------------------------- Back button-->
+             <a href="./index.html" target="_self" rel="noopener" class="icon-home"><i class="fas fa-home fa-2x">Back</i></a>
         </div>
        
             

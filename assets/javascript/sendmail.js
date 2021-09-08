@@ -42,5 +42,5 @@ function formValidation() {
 
 /* Code adapted from https://www.codegrepper.com/  display text onclick */ 
 function validation() {
-    document.getElementById("validated").innerHTML = "Thank you for your message!";
+     document.getElementById("validated").innerHTML = "Thank you for your message!"; // To display Thank you message
 }
