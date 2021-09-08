@@ -45,7 +45,7 @@
 
 .game-zone-container {
 overflow: auto;
-height: 600px;
+height: 490px;
 }
 
 .game-zone {
@@ -142,6 +142,7 @@ i {
     left: 60px;
     display: block;
     color: whitesmoke; 
+    margin: 0 auto;
 }
 
   .game-info {
@@ -152,6 +153,7 @@ i {
     position: absolute;
     font-family: 'Righteous', sans-serif;
     line-height: 24px;
+    margin: 0 auto;
 }
   h1 {
     font-size: calc(0.75rem + 1.5vw);
@@ -194,6 +196,7 @@ i {
 
 .modal-dialog {
   height: 500px;
+  margin: 0 auto;
 }
 
 .modal-content {
@@ -208,6 +211,7 @@ i {
   text-align: center;
   justify-content: center;
   padding-top:100px;
+  margin: 0 auto;
   
 }
 
@@ -223,11 +227,13 @@ i {
 @media only screen and (max-width: 1024px)  {
   .game-zone-container {
     width: fit-content;
+    margin: 0 auto;
   
   }
 
   .logo-container {
     width: fit-content;
+    margin: 0 auto;
   }
 
   .main-zone {
@@ -236,6 +242,7 @@ i {
 
   .game-box {
     width: auto;
+    margin: 0 auto;
   }
 }
 
@@ -243,10 +250,12 @@ i {
   .game-zone-container {
     width: fit-content;
     height: 490px;
+    margin: 0 auto;
   }
 
   .logo-container {
     width: fit-content;
+    margin: 0 auto;
   }
 
   .main-zone {
@@ -255,6 +264,7 @@ i {
 
   .game-box {
     width: auto;
+    margin: 0 auto;
   }
 }
 
@@ -262,25 +272,27 @@ i {
   .game-zone-container {
     width: 324px;
     height: 410px;
+    margin: 0 auto;
   }
 
   .logo-container {
     width: fit-content;
+    margin: 0 auto;
   }
 
   .main-zone {
-    width: 375px
+    width: 355px
   }
 
   .game-box {
     width: 324px;
-    left: -10px;
+    margin: 0 auto;
   }
 
   .game-zone {
     width: 324px;
     height: 410px;
-    left: -12px;
+    
   }
 
   .contact-form-container {
@@ -293,7 +305,7 @@ i {
   }
 
   .game-info {
-    left: 115px;
+    margin: 0 auto;
   }
 }
 
@@ -312,4 +324,5 @@ i {
 
 .back-container > a > i {
   color: #000000;
+  margin: 0 auto;
 }
